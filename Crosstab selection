@@ -1,0 +1,203 @@
+Select= CROSSTAB_1.getSelectedMember("ZSRT_ORD").text;
+
+
+
+//APPLICATION.alert(Select);
+
+
+if(Select== "Sales Quantity (KG)")
+
+
+{
+
+
+	
+
+
+	CROSSTAB_1.setDataSelection({"ZSRT_ORD":["10110099"]});
+
+
+	TEXT_CHTIT.setText("By " +Select);
+
+
+}
+
+
+if(Select == "Sales Quantity (LBS)")
+
+
+{
+
+
+	//Temp = "10120099"Sales Quantity(LBS);
+
+
+	CROSSTAB_1.setDataSelection({"ZSRT_ORD":["10120099"]});
+
+
+	TEXT_CHTIT.setText("By " +Select);
+
+
+}
+
+
+if(Select== "Net Revenue")
+
+
+{
+
+
+//	Temp = "10299999"Net Revenue;
+
+
+	CROSSTAB_1.setDataSelection({"ZSRT_ORD":["10299999"]});
+
+
+	TEXT_CHTIT.setText("By " +Select);
+
+
+}
+
+
+if(Select== "Direct Costs")
+
+
+{
+
+
+	//Temp = "10399999"Direct Costs;
+
+
+	CROSSTAB_1.setDataSelection({"ZSRT_ORD":["10399999"]});
+
+
+	TEXT_CHTIT.setText("By " +Select);
+
+
+}
+
+
+if(Select== "Total Indirect Costs")
+
+
+{
+
+
+	//Temp = "10599999"Total Direct Costs;
+
+
+	CROSSTAB_1.setDataSelection({"ZSRT_ORD":["10599999"]});
+
+
+	TEXT_CHTIT.setText("By " +Select);
+
+
+}
+
+
+if(Select== "Gross Profit")
+
+
+{
+
+
+	//Temp = "10799999"Gross Profit;
+
+
+	CROSSTAB_1.setDataSelection({"ZSRT_ORD":["10799999"]});
+
+
+	TEXT_CHTIT.setText("By " +Select);
+
+
+}
+
+
+if(Select== "Selling, General & Administrative")
+
+
+{
+
+
+	//Temp = "10800099"Selling, General & Administrative;
+
+
+	CROSSTAB_1.setDataSelection({"ZSRT_ORD":["10800099"]});
+
+
+	TEXT_CHTIT.setText("By " +Select);
+
+
+}
+
+
+if(Select== "Research & Development")
+
+
+{
+
+
+	//Temp = "10900099"Research & Development;
+
+
+	CROSSTAB_1.setDataSelection({"ZSRT_ORD":["10900099"]});
+
+
+	TEXT_CHTIT.setText("By " +Select);
+
+
+}
+
+
+if(Select== "Other Operating Income Expense")
+
+
+{
+
+
+	//Temp = "11040099"Other Operating Income Expense;
+
+
+	CROSSTAB_1.setDataSelection({"ZSRT_ORD":["11040099"]});
+
+
+	TEXT_CHTIT.setText("By " +Select);
+
+
+}
+
+
+if(Select== "Minority Interest Total")
+
+
+{
+
+
+	//Temp = "11320099"Minority Interest Total;
+
+
+	CROSSTAB_1.setDataSelection({"ZSRT_ORD":["11320099"]});
+
+
+	TEXT_CHTIT.setText("By " +Select);
+
+
+}
+
+
+if(Select== "Adjusted EBITDA")
+
+
+{
+
+
+	//Temp = "11899999"Adjusted EBITDA;
+
+
+	CROSSTAB_1.setDataSelection({"ZSRT_ORD":["11899999"]});
+
+
+	TEXT_CHTIT.setText("By " +Select);
+
+
+}
