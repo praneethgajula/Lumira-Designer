@@ -1,0 +1,70 @@
+DS_BOTTOM.clearFilter("ENDUSER_NAME");
+
+
+
+　
+
+
+　
+
+
+var members = DS_BOTTOM.getMembers("ENDUSER_NAME", 100000);
+
+
+var topBotNmembers = "";
+
+
+var rankValue = 0.0;
+
+
+var count = 0;
+
+
+var n = 10;
+
+
+var totalNumber = members.length - n;
+
+
+APPLICATION.alert(""+totalNumber);
+
+
+members.forEach(function(element, index) {
+
+
+     if(count != n) {
+
+
+          rankValue = DS_BOTTOM.getData("Measures_Formula1", {"ENDUSER_NAME": element.internalKey}).value;
+
+
+          if (rankValue > totalNumber) {
+
+
+          //	APPLICATION.alert("IN");
+
+
+                topBotNmembers = topBotNmembers + element.internalKey + ";";
+
+
+                count = count + 1;
+
+
+               // APPLICATION.alert(""+rankValue);
+
+
+          }
+
+
+      }
+
+
+});
+
+
+DS_BOTTOM.setFilter("ENDUSER_NAME", topBotNmembers.split(";"));
+
+
+APPLICATION.alert(topBotNmembers);
+
+
