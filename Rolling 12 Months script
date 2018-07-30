@@ -1,0 +1,18 @@
+
+var year = Convert.subString(VarPeriod, 0,4);
+var month = Convert.subString(VarPeriod, 4,7);
+var year_int= Convert.stringToInt(year);
+var month_int= Convert.stringToInt(month);
+if(month_int==12)
+{
+	period_start = year_int+'001';
+}
+else 
+{
+	period_start = (year_int-1)+'00'+(month_int+1);
+}
+DS_1.setFilter("FISCPER", {"low":period_start,"high":VarPeriod});
+
+
+
+　
