@@ -1,0 +1,49 @@
+if(VarMonth == "001")
+{
+	Month_Name = "January";
+}
+if(VarMonth == "002")
+{
+	Month_Name = "February";
+}
+if(VarMonth == "003")
+{
+	Month_Name = "March";
+}
+if(VarMonth == "004")
+{
+	Month_Name = "April";
+}
+if(VarMonth == "005")
+{
+  Month_Name = "May";
+}
+if(VarMonth == "006")
+{
+	Month_Name = "June";
+}
+if(VarMonth == "007")
+{
+	Month_Name = "July";
+}
+if(VarMonth == "008")
+{
+	Month_Name = "August";
+}
+if(VarMonth == "009")
+{
+  Month_Name = "September";
+}
+if(VarMonth == "010")
+{
+	Month_Name = "October";
+}
+if(VarMonth == "011")
+{
+	Month_Name = "November";
+}
+if(VarMonth == "012")
+{
+	Month_Name = "December";
+}
+APPLICATION.alert(Month_Name);
