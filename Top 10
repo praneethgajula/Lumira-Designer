@@ -1,0 +1,55 @@
+DS_1.clearFilter("DIMENSION_NAME");
+
+
+var members = DS_1.getMembers("DIMENSION_NAME", 100000);
+
+
+var topBotNmembers = "";
+
+
+var rankValue = 0.0;
+
+
+var count = 0;
+
+
+var n = 10;
+
+
+members.forEach(function(element, index) {
+
+
+     if(count != n) {
+
+
+     	
+
+
+          rankValue = DS_1.getData("Measures_Formula1", {"DIMENSION_NAME": element.internalKey}).value;
+
+
+     
+
+
+          if (rankValue <= n) {
+
+
+                topBotNmembers = topBotNmembers + element.internalKey + ";";
+
+
+                count = count + 1;
+
+
+          }
+
+
+     }
+
+
+});
+
+
+var a = " ";
+
+
+DS_1.setFilter("DIMENSION_NAME", topBotNmembers.split(";"));
