@@ -1,0 +1,119 @@
+ 	//Initializing a variable to get the input supplied by the user
+
+
+
+Search_Value = INPUTFIELD_1.getValue();
+
+
+
+GLOBAL_SCRIPTS_1.UpperCase(Search_Value);
+
+
+//Initializing an empty string variable to append searched members from the list and filter
+
+
+
+var FilterList = "";
+
+
+
+　
+
+
+//Getting the list of regions being displayed on the crosstab
+
+
+
+var MemberList = DS_DV.getMembers("SrcSys_Child", 2000);
+
+
+
+//Iterating the list to identify the list of possible matches
+
+
+
+MemberList.forEach(function(element, index) {
+
+
+
+if(Convert.indexOf(element.text, uppercased_text) != -1)
+
+
+
+ {
+
+
+
+ //Appends the key of the element if it matches the user’s search string
+
+
+
+ FilterList = FilterList + element.externalKey + ";";
+
+
+
+ }
+
+
+
+});
+
+
+
+　
+
+
+//Sets the filter on the Data Source so users can only see results matching the search string
+
+
+
+DS_DV.setFilterExt("SrcSys_Child", FilterList);
+
+
+DIMENSIONFILTER_17.submit();
+
+
+
+　
+
+
+if(DS_DV.getFilterText("SrcSys_Child") == "")
+
+
+
+{
+
+
+
+      //Alerts the users if the search string has not been found
+
+
+
+      APPLICATION.alert("'" + Search_Value +"‘ is not found! \nPlease check your search string and search again! ");
+
+
+
+}
+
+
+
+else
+
+
+
+{
+
+
+
+      //Enables the ‘clear’ button incase the users want to clear the searched value
+
+
+
+      BUTTON_CLEAR.setVisible(true);
+
+
+
+}
+
+
+ 	
