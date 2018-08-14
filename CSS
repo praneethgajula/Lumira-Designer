@@ -1,0 +1,1634 @@
+/* Custom CSS */
+
+
+@font-face {
+
+
+font-family: 'SAP-icons';
+
+
+src: url('SAP-icons.ttf'),
+
+
+url('SAP-icons.eot'); /* IE9+ */
+
+
+font-weight: normal;
+
+
+font-style: normal;
+
+
+}
+
+
+
+#__label1-__clone20
+
+
+{
+
+
+	font-weight:bold !important;
+
+
+}
+
+
+#__label9-__clone79
+
+
+{
+
+
+	font-weight:bold !important;
+
+
+}
+
+
+
+.makeItBlue .sapXTableBCItemValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableBCForecastBarValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableCmpChartItemValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableCmpChartBarValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableCmpTileItemValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableCmpTileItemScale.ConditionBad1,
+
+
+.makeItBlue .sapXTableCmpTileBarValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableCmcLbl.ConditionBad1,
+
+
+.makeItBlue .sapXTableUiCommonsJCValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableMacLbl.ConditionBad1,
+
+
+.makeItBlue .sapXTableUiCommonsNCValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableUiCommonsNCScale.ConditionBad1,
+
+
+.makeItBlue .sapXTableDmcDelta.ConditionBad1,
+
+
+.makeItBlue .sapXTableDTBItemValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableMacTarget.ConditionBad1,
+
+
+.makeItBlue .sapXTableMacChart.ConditionBad1,
+
+
+.makeItBlue .XTableHBMCValSclCnt.ConditionBad1 {
+
+
+  color: #1f497d;
+
+
+}
+
+
+.makeItBlue .sapXTableBCBarValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableDTBBarValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableDTBBarValue.ConditionBad1,
+
+
+.makeItBlue .sapXTableBCBarValueMarker.ConditionBad1,
+
+
+.makeItBlue .sapXTableCmcBar.ConditionBad1,
+
+
+.makeItBlue .sapXTableDmcBarDeltaInt.ConditionBad1,
+
+
+.makeItBlue .sapXTableMacChart.ConditionBad1,
+
+
+.makeItBlue .sapXTableMacLine.ConditionBad1,
+
+
+.makeItBlue .sapXTableMacThreshold.ConditionBad1,
+
+
+.makeItBlue .sapXTableUiCommonsNCIndicator.ConditionBad1,
+
+
+.makeItBlue .sapXTableUiCommonsNT.ConditionBad1 {
+
+
+  background-color: #1f497d;
+
+
+}
+
+
+.makeItBlue .XTableHBMCSgmnt.ConditionBad1 {
+
+
+  fill:#1f497d;
+
+
+}
+
+
+
+.sapzencrosstab-DimensionHeaderArea .sapzencrosstab-HeaderCellDefault, .sapzencrosstab-ColumnHeaderArea .sapzencrosstab-HeaderCellDefault
+
+
+{
+
+
+	background-color: #fff9d7!important;
+
+
+	background-image: none !important;
+
+
+}
+
+
+
+.sapzencrosstab-DataCellDefault, .sapzencrosstab-HeaderCellDefault{
+
+
+	background-color: #ffffff!important;
+
+
+	color: Black;
+
+
+}
+
+
+
+.sapzencrosstab-DataCellAlternating, .sapzencrosstab-HeaderCellAlternating{
+
+
+	background-color: white !important;
+
+
+}
+
+
+
+.sapzencrosstab-HeaderCellDefault.sapzencrosstab-SelectRowHeaderCell, .sapzencrosstab-RowHeaderArea .sapzencrosstab-HeaderCellAlternating.sapzencrosstab-SelectRowHeaderCell, .sapzencrosstab-SelectDataCell, .sapzencrosstab-HeaderCellSelectRow, .sapzencrosstab-HeaderCellAlternating.sapzencrosstab-HeaderCellSelectRow, .sapzencrosstab-HeaderCellSelectCol, .sapzencrosstab-HeaderCellAlternating.sapzencrosstab-HeaderCellSelectCol, .sapzencrosstab-HeaderCellSelectCol.sapzencrosstab-HeaderCellDefault, .sapzencrosstab-DataCellSelectData, .sapzencrosstab-DataCellAlternating.sapzencrosstab-DataCellSelectData {
+
+
+    background-color: #12b0ed !important;
+
+
+    color:#fff;
+
+
+}
+
+
+
+.background
+
+
+{
+
+
+	background-color: #e4e4e4 ;
+
+
+}
+
+
+
+.ICON_MAGNIFY:before {
+
+
+font-size: 12px;
+
+
+font-family: 'SAP-icons';              
+
+
+content: "\e00d";           
+
+
+speak: none;
+
+
+} 
+
+
+
+/*.sapzencrosstab-HeaderCellContentDiv table tbody tr td #__cell0_textContentDiv
+
+
+//{
+
+
+//	display:none !important;
+
+
+}*/
+
+
+.check .sapzencrosstab-DataCellContentDiv, .check .sapzencrosstab-HeaderCellContentDiv
+
+
+
+{
+
+
+
+     white-space:normal!important; 
+
+
+
+     word-wrap: break-word;
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+　
+
+
+.ICON_CLOSE:before {
+
+
+font-size: 12px;
+
+
+font-family: 'SAP-icons';              
+
+
+content: "\e03e";           
+
+
+speak: none;
+
+
+} 
+
+
+
+/*waterfall*/
+
+
+.waterfall_chart .v-datapoint.v-morphable-datapoint:nth-child(1) rect
+
+
+{
+
+
+	fill:#00a2e8 !important;
+
+
+
+}
+
+
+.waterfall_chart .v-datapoint.v-morphable-datapoint:nth-child(14) rect
+
+
+{
+
+
+	fill:#00a2e8 !important;
+
+
+
+}
+
+
+.buttonReg
+
+
+{
+
+
+	
+
+
+	
+
+
+	border :0.5px solid #ffffff;
+
+
+	background-color: #800000!important;
+
+
+	  
+
+
+    transition-duration: 0.4s;
+
+
+	
+
+
+}
+
+
+.buttonReg.sapMBtn:hover>.sapMBtnHoverable {background-color:#004080}
+
+
+
+　
+
+
+.buttonClick
+
+
+{
+
+
+	border :0.5px solid #ffffff;
+
+
+	background-color: #004080!important;
+
+
+}
+
+
+
+.v-labelarea v-axis-item v-hovershadow
+
+
+{
+
+
+opacity="0"!important;
+
+
+y="0"!important;
+
+
+width="0"!important;
+
+
+height="0"!important;
+
+
+}
+
+
+
+　
+
+
+　
+
+
+.myRadioB .sapUiRbStd {
+
+
+                font-family: "HelveticaNeue-Regular", sans-serif;  
+
+
+                color: #000000!important;
+
+
+                font-size: 11px !important;
+
+
+}
+
+
+.myRadioB
+
+
+{
+
+
+	cursor: pointer !important;
+
+
+} 
+
+
+.myText {
+
+
+	font-family: "HelveticaNeue-Regular", sans-serif;  
+
+
+                color: gray !important;
+
+
+                font-size: 11px !important;
+
+
+}
+
+
+.myChartTitle
+
+
+
+{
+
+
+font-family: arial, sans-serif;
+
+
+font-weight: bold;
+
+
+font-size: 20px!important;
+
+
+color: black;
+
+
+line-height: 42px;
+
+
+width:100%;
+
+
+text-align: center;
+
+
+}
+
+
+
+.myChartPanel
+
+
+{
+
+
+background-color:white;
+
+
+ 
+
+
+border-bottom:2px solid#F7F7F9!important;
+
+
+ 
+
+
+border-right: 2px solid#F7F7F9!important;
+
+
+border-left:2px solid#F7F7F9!important;
+
+
+}
+
+
+
+.myTitlePanel
+
+
+{
+
+
+
+}
+
+
+
+　
+
+
+　
+
+
+.v-waterfallgroup:nth-child(1) rect{  
+
+
+fill:#4F81BD !important;  
+
+
+}  
+
+
+
+.v-waterfallgroup:nth-child(14) rect{  
+
+
+fill:#4F81BD !important;  
+
+
+}  
+
+
+
+.sapzenfilterpanel-Tabstrip > .sapUiTabBar{
+
+
+display:none;
+
+
+}
+
+
+
+.sapzencrosstab-RowHeaderArea .sapzencrosstab-HeaderCellTotal, .sapzencrosstab-DataArea .sapzencrosstab-DataCellTotal{
+
+
+
+background-color: #F0AB00;
+
+
+
+}
+
+
+
+/* SAP CLASSES */
+
+
+
+/*RADIO BUTTON */
+
+
+/* radio button label size*/
+
+
+.sapUiSizeCompact .sapMRbBLabel 
+
+
+{
+
+
+	font-size: 11px !important;
+
+
+	/*height: 10px !important;*/
+
+
+}
+
+
+
+/*size of button inside radio button */
+
+
+.sapUiSizeCompact .sapMRbB .sapMRbBInn
+
+
+{
+
+
+	height: 0.2rem !important;
+
+
+	width: 0.2rem !important;
+
+
+}
+
+
+
+  
+
+
+  /*DROP DOWN */
+
+
+/* dropdown size*/
+
+
+.sapUiSizeCompact .sapMSlt 
+
+
+{
+
+
+	height: 15px !important;
+
+
+	width: 150px !important;
+
+
+}
+
+
+
+.sapUiSizeCompact .sapMSlt 
+
+
+{
+
+
+	height: 20px !important;
+
+
+	width: 140px !important;
+
+
+	color : black ;
+
+
+	text-align:center;
+
+
+	font-size:12px;
+
+
+	border-radius: 8px;
+
+
+	 
+
+
+	
+
+
+}
+
+
+
+　
+
+
+/*text inside dropdown*/
+
+
+.sapMSltLabel
+
+
+{
+
+
+	font-size: 10px !important;
+
+
+	line-height:1rem !important;
+
+
+	color: black !important;
+
+
+}
+
+
+
+/*text size of dropdown items*/
+
+
+.sapMSelectListItemBase
+
+
+{
+
+
+	font-size: 10px !important;
+
+
+}
+
+
+
+/*dropdown arrow */
+
+
+.sapMSltArrow{
+
+
+	
+
+
+		width: 1rem !important;
+
+
+		line-height:1rem !important;
+
+
+		color: black;
+
+
+}
+
+
+
+/* button */
+
+
+.sapMBtnInner
+
+
+{
+
+
+	font-size : .65rem;
+
+
+}
+
+
+
+/* crosstab */
+
+
+.sapzencrosstab-FontSize-MainMode
+
+
+{
+
+
+	font-size : .7rem;
+
+
+}
+
+
+
+　
+
+
+/*
+
+
+.CROSSTAB1 .sapzencrosstab-DimensionHeaderArea .sapzencrosstab-TextAlignmentIE, .ColumnHeaderArea.sapzenCrosstab .sapzencrosstab-TextAlignmentIE, .RowHeaderArea.sapzenCrosstab .sapzencrosstab-TextAlignmentIE
+
+
+{
+
+
+	display: none !important;
+
+
+}*/
+
+
+
+.sapzencrosstab-HeadercellFirstInRow 
+
+
+{
+
+
+	display: none !important;
+
+
+	
+
+
+}
+
+
+
+　
+
+
+/*poc*/
+
+
+
+　
+
+
+@media(max-width : 1824px)
+
+
+{
+
+
+.FILTER_VALUE_HELP{font-size:13px !important;}
+
+
+}
+
+
+@media(max-width : 1600px)
+
+
+{
+
+
+.FILTER_VALUE_HELP{height:105% !important;}
+
+
+}
+
+
+@media(max-width : 1680px)
+
+
+{
+
+
+.FILTER_VALUE_HELP{}
+
+
+}
+
+
+@media(max-width : 1440px)
+
+
+{
+
+
+.FILTER_VALUE_HELP{height:105% !important;}
+
+
+}
+
+
+@media(max-width : 1400px)
+
+
+{
+
+
+.FILTER_VALUE_HELP{}
+
+
+}
+
+
+@media(max-width : 1366px)
+
+
+{
+
+
+.FILTER_VALUE_HELP{ height:115% !important;;
+
+
+}
+
+
+}
+
+
+@media(max-width : 1360px)
+
+
+{
+
+
+.FILTER_VALUE_HELP{height:115% !important;}
+
+
+}
+
+
+
+　
+
+
+.border
+
+
+{
+
+
+	border-bottom-color: #363636;
+
+
+}
+
+
+.buttonReg
+
+
+{
+
+
+	
+
+
+	
+
+
+	border :0.5px solid #ffffff;
+
+
+	background-color: #800000!important;
+
+
+	
+
+
+}
+
+
+.buttonClick
+
+
+{
+
+
+	border :0.5px solid #ffffff;
+
+
+	background-color: #004080!important;
+
+
+}
+
+
+.greyGrid
+
+
+{
+
+
+	
+
+
+	
+
+
+	border :0.5px solid #ffffff;
+
+
+	background-color: #808080!important;
+
+
+	
+
+
+}
+
+
+.display
+
+
+{
+
+
+	background-color: #e4e4e4 ;
+
+
+}
+
+
+
+.hide
+
+
+{
+
+
+	display:none;
+
+
+}
+
+
+.v-labelarea.v-axis-item.v-hovershadow
+
+
+{
+
+
+opacity="0"!important;
+
+
+y="0"!important;
+
+
+width="0"!important;
+
+
+height="0"!important;
+
+
+}
+
+
+
+　
+
+
+　
+
+
+　
+
+
+.myText {
+
+
+	font-family: "HelveticaNeue-Regular", sans-serif;  
+
+
+                color: gray !important;
+
+
+                font-size: 11px !important;
+
+
+}
+
+
+.myChartTitle
+
+
+
+{
+
+
+font-family: arial, sans-serif;
+
+
+font-weight: bold;
+
+
+font-size: 20px!important;
+
+
+color: black;
+
+
+line-height: 42px;
+
+
+width:100%;
+
+
+text-align: center;
+
+
+}
+
+
+
+.myChartPanel
+
+
+{
+
+
+background-color:white;
+
+
+ 
+
+
+border-bottom:2px solid#F7F7F9!important;
+
+
+ 
+
+
+border-right: 2px solid#F7F7F9!important;
+
+
+border-left:2px solid#F7F7F9!important;
+
+
+}
+
+
+
+　
+
+
+.background2
+
+
+{
+
+
+background-color: #87CEEB;
+
+
+}
+
+
+.background3
+
+
+{
+
+
+background-color: #7FFFD4;
+
+
+}
+
+
+.background4
+
+
+{
+
+
+background-color: #FFE4E1;
+
+
+}
+
+
+.background5
+
+
+{
+
+
+background-color: #BC8F8F;
+
+
+}
+
+
+
+.v-waterfallgroup:nth-child(1) rect{  
+
+
+fill:#4F81BD !important;  
+
+
+}  
+
+
+
+.v-waterfallgroup:nth-child(14) rect{  
+
+
+fill:#4F81BD !important;  
+
+
+}  
+
+
+
+/*.sapzenfilterpanel-Tabstrip > .sapUiTabBar{
+
+
+display:none;
+
+
+}
+
+
+*/
+
+
+
+.sapzencrosstab-DataCellContentDiv {
+
+
+
+/* font-family: "Verdana"; */
+
+
+
+font-family: arial, sans-serif; 
+
+
+
+font-size: 12px; 
+
+
+
+height: 13px; 
+
+
+
+Border:0 solid #98bf21; 
+
+
+
+}
+
+
+.sapzencrosstab-HeaderCellDefault { 
+
+
+
+/* font-weight: bold; 
+
+
+
+font-family: "Verdana"; */
+
+
+
+font-family: arial, sans-serif;
+
+
+
+font-size: 12px; 
+
+
+
+text-align: Left; 
+
+
+
+border: 0 px solid #98bf21; 
+
+
+
+} 
+
+
+
+　
+
+
+.sapzencrosstab-DimensionHeaderArea .sapzencrosstab-HeaderCellDefault, .sapzencrosstab-ColumnHeaderArea .sapzencrosstab-HeaderCellDefault
+
+
+{
+
+
+	background-color: #fff9d7!important;
+
+
+	background-image: none !important;
+
+
+}
+
+
+
+.sapzencrosstab-DataCellDefault, .sapzencrosstab-HeaderCellDefault{
+
+
+	background-color: #ffffff;
+
+
+	color: Black;
+
+
+}
+
+
+
+.sapzencrosstab-DataCellAlternating, .sapzencrosstab-HeaderCellAlternating{
+
+
+	background-color: white !important;
+
+
+}
+
+
+
+.sapzencrosstab-HeaderCellDefault.sapzencrosstab-SelectRowHeaderCell, .sapzencrosstab-RowHeaderArea .sapzencrosstab-HeaderCellAlternating.sapzencrosstab-SelectRowHeaderCell, .sapzencrosstab-SelectDataCell, .sapzencrosstab-HeaderCellSelectRow, .sapzencrosstab-HeaderCellAlternating.sapzencrosstab-HeaderCellSelectRow, .sapzencrosstab-HeaderCellSelectCol, .sapzencrosstab-HeaderCellAlternating.sapzencrosstab-HeaderCellSelectCol, .sapzencrosstab-HeaderCellSelectCol.sapzencrosstab-HeaderCellDefault, .sapzencrosstab-DataCellSelectData, .sapzencrosstab-DataCellAlternating.sapzencrosstab-DataCellSelectData {
+
+
+    background-color: #12b0ed !important;
+
+
+    color:#fff;
+
+
+}
+
+
+.firstrow .sapzencrosstab-RowHeaderArea tr:nth-child(1).sapzencrosstab-HeaderRow td:nth-child(1)
+
+
+{
+
+
+	background-color: #12b0ed !important;
+
+
+	color:#fff;
+
+
+}
+
+
+
+.check1 .sapzencrosstab-DataArea tr:nth-child(1) td 
+
+
+{
+
+
+background-color: #12b0ed !important;
+
+
+color:#fff;
+
+
+
+　
+
+
+} 
+
+
+.check1 .sapzencrosstab-RowHeaderArea tr:nth-child(1).sapzencrosstab-HeaderRow td:nth-child(1)
+
+
+{
+
+
+	background-color: #12b0ed !important;
+
+
+	color:#fff;
+
+
+}
+
+
+ .check1 .sapzencrosstab-DataArea tr:nth-child(1) td 
+
+
+
+　
+
+
+{ 
+
+
+
+　
+
+
+background-color: #12b0ed !important;
+
+
+color:#fff;
+
+
+
+　
+
+
+} 
+
+
+
+.check1 .sapzencrosstab-RowHeaderArea tr:nth-child(1).sapzencrosstab-HeaderRow td:nth-child(1)
+
+
+{
+
+
+	background-color: #12b0ed !important;
+
+
+	color:#fff;
+
+
+}
+
+
+ .check1 .sapzencrosstab-DataArea tr:nth-child(1) td 
+
+
+
+　
+
+
+{ 
+
+
+background-color: #12b0ed !important;
+
+
+color:#fff;
+
+
+} 
+
+
+.rest
+
+
+{
+
+
+	
+
+
+}
+
+
+
+/* SAP CLASSES */
+
+
+
+  
+
+
+ .panel_curve
+
+
+  {
+
+
+  	border-radius: 20px !important;
+
+
+  	border:5px solid !important;
+
+
+  	border-color:#4F81BD !important;
+
+
+  }
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ .sapMLIB.sapMLIBSelected
+
+
+{
+
+
+	background:#12b0ed ;
+
+
+	font-weight: bold;
+
+
+	border : 1px  solid skyblue !important
+
+
+}
+
+
+
+.sapMLIBHoverable:hover
+
+
+{
+
+
+	background: #12b0ed ;
+
+
+}
+
+
+
+.sapMLIBSelected.sapMLIBHoverable:hover
+
+
+{
+
+
+	background: #12b0ed;
+
+
+}
+
+
+
+　
+
+
+　
+
+
+#CROSSTAB_ROLL_ColumnHeaderArea_1
+
+
+{
+
+
+	display: none;
+
+
+}
+
+
+.CROSSTAB_ROLL_ColumnHeaderArea_0
+
+
+{
+
+
+	text-align : top;
+
+
+}
+
+
+.griddisplayhide
+
+
+{
+
+
+	display:none;
+
+
+}
+
+
+.griddisplayshow
+
+
+{
+
+
+
+}
+
+
+
+.Buttonpressed
+
+
+{
+
+
+	background: #12b0ed;
+
+
+}
+
+
+
+.Buttonnotpressed
+
+
+{
+
+
+	background: white;
+
+
+}
+
+
+
+　
+
+
+[x="31.7727"]
+
+
+{
+
+
+	display:none;
+
+
+}
+
+
+
+[x="111.5625"]
+
+
+{
+
+
+	display:none;
+
+
+}
+
+
+[x="1.5977"]
+
+
+{
+
+
+	word-wrap: break !important;
+
+
+}
+
+
+/*poc*/
+
+
