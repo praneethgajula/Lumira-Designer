@@ -1,0 +1,47 @@
+On Start:
+LISTBOX_BM.setSelectedValue("");
+var bookmarklist = BOOKMARKS_1.getAll();
+bookmarklist.forEach(function(element, index) 
+{
+	
+LISTBOX_BM.addItem(element.id, element.title);
+
+});
+LISTBOX_BM.setSelectedValue(" ");
+
+On Load:
+var Book_ID = LISTBOX_BM.getSelectedValue();
+TEXT_LOAD.setVisible(true);
+TEXT_LOAD.setText("Loaded" + " "+LISTBOX_BM.getSelectedText());
+BOOKMARKS_1.load(Book_ID);
+
+//LISTBOX_BM.addItem("1", "Select Bookmark",0);
+//LISTBOX_BM.setSelectedValue("");
+INPUTFIELD_BM.setValue("");
+
+var bookmarklist = BOOKMARKS_1.getAll();
+bookmarklist.forEach(function(element, index) 
+{
+	
+LISTBOX_BM.addItem(element.id, element.title);
+
+});
+
+LISTBOX_BM.setSelectedValue(Book_ID);
+
+On delete:
+TEXT_LOAD.setVisible(false);
+BOOKMARKS_1.delete(LISTBOX_BM.getSelectedValue());
+//INPUTFIELD_BM.setValue("");
+LISTBOX_BM.removeItem(LISTBOX_BM.getSelectedValue());
+
+INPUTFIELD_BM.setValue("");
+
+On SAVE:
+var Title = INPUTFIELD_BM.getValue();
+var Book_ID = BOOKMARKS_1.save(Title);
+
+save = INPUTFIELD_BM.getValue();
+
+LISTBOX_BM.addItem(Book_ID, Title);
+INPUTFIELD_BM.setValue("");
