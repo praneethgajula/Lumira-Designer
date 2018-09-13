@@ -1,0 +1,17 @@
+Create a components technical component, Have a dialog box with name DIALOG_1. place a panel in it PANEL_2;
+Create a global variable a(panel type), chart(vizframe type);
+
+Magnify icon has:
+a=COMPONENTS.createComponent(ComponentType.Panel);
+chart = COMPONENTS.createComponent(ComponentType.com_sap_ip_bi_VizFrame);
+ PANEL_2.moveComponent(chart);
+ chart.setWidth(Layout.AUTO);
+ chart.setHeight(Layout.AUTO);
+ 
+COMPONENTS.copyProperties(CHART_1, chart);
+DIALOG_1.open();
+
+Close button of dialog has:
+DIALOG_1.close();
+a.moveComponent(chart);
+COMPONENTS.deleteComponent(a);
