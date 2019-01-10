@@ -1,0 +1,9 @@
+var a = CHART_1.getSelectedMembers("0FISCPER");
+var filter= "";
+a.forEach(function(element, index) {
+ 	filter = filter+element.internalKey+"/";
+// 	APPLICATION.alert(element.internalKey);
+});
+//APPLICATION.alert(filter);
+DS_PRODUCTLINE.setFilter("0FISCPER", filter.split("/"));
+
